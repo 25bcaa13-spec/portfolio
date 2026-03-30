@@ -1,0 +1,19 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# SQLite database (local dev)
+portfolio.db
+
+# Environment variables
+.env
+
+# VSCode / Cursor settings
+.vscode/
+.cursor/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
