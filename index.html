@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arbiya Shazeen | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Spider Web Canvas Background -->
+    <canvas id="spiderCanvas"></canvas>
+
+    <header>
+        <nav>
+            <h3 class="logo">🕷️ Arbiya Shazeen</h3>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="/admin" target="_blank" rel="noopener noreferrer">Admin</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="web-decoration web-top-left"></div>
+        <div class="web-decoration web-top-right"></div>
+        <div class="hero-content">
+            <div class="profile-container">
+               
+                <div class="spider-ring"></div>
+            </div>
+            <h1>Hi, I'm <span class="highlight">Arbiya Shazeen</span></h1>
+            <p class="tagline">Web Developer | Designer | Code Weaver</p>
+            <div class="visitor-count">
+                <span class="spider-icon">🕸️</span>
+                <span id="visitorCount">0</span> visitors caught in my web
+            </div>
+            <a href="#contact" class="btn">Hire Me</a>
+        </div>
+        <div class="web-decoration web-bottom-left"></div>
+        <div class="web-decoration web-bottom-right"></div>
+    </section>
+
+    <section id="about">
+        <h2><span class="spider-icon">🕷️</span> About Me</h2>
+        <div class="about-content">
+            <p>
+                I am a passionate web developer with experience in building responsive and user-friendly websites.
+                I specialize in front-end development and love creating clean UI designs.
+                Like a spider weaving its web, I craft digital experiences with precision and creativity.
+            </p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2><span class="spider-icon">🕸️</span> My Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <div class="card-web-corner"></div>
+                <h3>Project One</h3>
+                <p>Short description of the project goes here.</p>
+            </div>
+            <div class="project-card">
+                <div class="card-web-corner"></div>
+                <h3>Project Two</h3>
+                <p>Short description of the project goes here.</p>
+            </div>
+            <div class="project-card">
+                <div class="card-web-corner"></div>
+                <h3>Project Three</h3>
+                <p>Short description of the project goes here.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2><span class="spider-icon">🕷️</span> Contact Me</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">
+                <span class="btn-text">Send Message</span>
+                <span class="btn-spider">🕷️</span>
+            </button>
+        </form>
+        <div id="formMessage" class="form-message"></div>
+    </section>
+
+    <footer>
+        <div class="footer-web"></div>
+        <p>© 2026 Arbiya Shazeen | All Rights Reserved</p>
+        <p class="footer-tagline">Crafted with 🕸️ and code</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
